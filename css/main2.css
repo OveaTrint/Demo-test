@@ -1,0 +1,37 @@
+* {
+    font-family: monospace;
+}
+
+p {
+    font-size: 22px;
+    color: purple;
+}
+
+h1,
+h2 {
+    color: blue;
+}
+.highlight {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+.gray {
+    color: gray;
+}
+
+#personal-info {
+    color: aquamarine;
+    font-style: italic;
+}
+
+table,
+tr,
+th,
+td,
+caption {
+    border: 1px solid #eee;
+    font-family: "Courier New", Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}

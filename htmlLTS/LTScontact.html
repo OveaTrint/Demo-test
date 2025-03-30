@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="contact" content="where we you can contact us" />
+        <meta name="author" content="Kamal Baiyewu" />
+
+        <title>Contact LTS</title>
+
+        <link rel="stylesheet" href="../css/style.css" />
+        <link rel="icon" href="../LTS_images/taco_icon.png" />
+    </head>
+
+    <body>
+        <header>
+            <h1>Contact Us</h1>
+            <nav aria-label="Navigation">
+                <ul>
+                    <li>
+                        <a href="LTSabout.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="LTSabout.html#about">About LTS</a>
+                    </li>
+
+                    <li>
+                        <a href="LTSabout.html#menu">Our Menu</a>
+                    </li>
+
+                    <li>
+                        <a href="LTShours.html">Store Hours</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <figure>
+                <img src="../LTS_images/Tacos_wrap.jpeg" alt="Wrap of Tacos" />
+                <figcaption>Little Taco Shop Wrap of Tacos</figcaption>
+            </figure>
+        </header>
+
+        <main>
+            <h2>Our Contact Form</h2>
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Send us A Message</legend>
+
+                    <p>
+                        <label for="name">Name:</label>
+                        <input
+                            autofocus
+                            type="text"
+                            name="name"
+                            id="name"
+                            required
+                            placeholder="Your Name"
+                        />
+                    </p>
+
+                    <p>
+                        <label for="email">Email:</label>
+                        <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            required
+                            placeholder="example@gmail.com"
+                        />
+                    </p>
+
+                    <p>
+                        <label for="message">Message</label>
+
+                        <br />
+
+                        <textarea
+                            name="message"
+                            id="message"
+                            cols="30"
+                            rows="10"
+                            placeholder="Enter your message"
+                        ></textarea>
+                    </p>
+                </fieldset>
+
+                <button
+                    type="submit"
+                    formaction="https://httpbin.org/post"
+                    formmethod="post"
+                >
+                    Submit
+                </button>
+
+                <button type="reset">Reset</button>
+            </form>
+        </main>
+
+        <footer>
+            <h2>Our Location</h2>
+
+            <address>
+                555 Taco Temptation Lane, Suite T
+                <br />
+                Kansas City, MO 55555-555
+            </address>
+
+            <p>
+                <em>
+                    Phone:
+                    <a href="tel:5555555555">555-555-5555</a>
+                </em>
+            </p>
+
+            <p>
+                <a href="#">Back to Top</a>
+            </p>
+
+            <hr />
+        </footer>
+    </body>
+</html>

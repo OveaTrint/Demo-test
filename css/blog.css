@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Maiden Orange";
+    background: #f5f5dc;
+    color: #000000;
+    font-size: 1.5rem;
+}
+
+header {
+    font-family: "Roboto", sans-serif;
+    width: 70%;
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px auto;
+    margin-top: 2em;
+    padding: 1em;
+}
+
+.container {
+    width: 80%;
+    text-align: center;
+    border: 5px solid rgb(255, 0, 0);
+    margin: 5% auto;
+    /* margin-top: 1em;
+    margin-right: 2em;
+    margin-bottom: 3em; 
+    margin-left: 2em; */
+    outline: 1px solid black;
+    outline-offset: -10px;
+}
+
+/* .circle {
+    margin: 3rem auto;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    border: 4px solid black;
+    border-radius: 50px;
+    outline: 4px solid #ff0000;
+    outline-offset: 0.25rem;
+} */
+
+h2 {
+    margin-top: 20px;
+    padding-top: 20px;
+    text-decoration: underline;
+    text-shadow: 3px 3px 3px gray;
+    font-size: 1.5em;
+}
+
+h3 {
+    text-align: left;
+    margin-left: 2em;
+    margin-bottom: 0.5em;
+    text-decoration: underline;
+}
+
+ul {
+    text-align: left;
+    padding-left: 2em;
+    padding-bottom: 1.5em;
+}
+
+ol {
+    list-style: square;
+    padding-left: 2em;
+    padding-bottom: 1.5em;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(207, 44%, 49%);
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover,
+a:focus {
+    color: hsl(181, 44%, 49%, 0.6);
+}
+
+a:active {
+    color: red;
+}
+
+/* input,
+button {
+    font: inherit;
+} */
+
+.post {
+    text-align: justify;
+    text-indent: 1.5em;
+    line-height: 1.6;
+    font-weight: 50;
+    padding: 1em;
+}
+
+.navigation {
+    padding-top: 5px;
+    text-align: inherit;
+    font-size: 20px;
+}
+
+.navigation :hover {
+    color: rgb(5, 18, 197, 0.4);
+}
